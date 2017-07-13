@@ -19,7 +19,11 @@ article section:nth-child(2n+0) {
 
 /*The three <span> elements should be displayed as block elements with a 1 pixel border and 25 pixel margin on all sides.*/
 
-
+span {
+	display: block;
+	border: 1px solid red;
+	margin: 25px;
+}
 
 
 
